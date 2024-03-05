@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("WpfCrutches")]
-[assembly: AssemblyCopyright("Copyright © Roman Starkov 2012-2023")]
+[assembly: AssemblyCopyright("Copyright © Roman Starkov 2012-2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
