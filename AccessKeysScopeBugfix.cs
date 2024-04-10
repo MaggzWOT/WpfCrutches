@@ -115,8 +115,7 @@ namespace WpfCrutches
         /// </remarks>
         private static void HandleAccessKeyPressed(object sender, AccessKeyPressedEventArgs e)
         {
-            FrameworkElement focusedElement = Keyboard.FocusedElement as FrameworkElement;
-            if (focusedElement == null)
+            if (!(Keyboard.FocusedElement is FrameworkElement focusedElement))
                 return; // No focused element.
 
             if (sender == focusedElement)
